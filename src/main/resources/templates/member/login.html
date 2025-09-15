@@ -400,11 +400,11 @@ body {
 				<a href="/member/joinFrm">회원가입</a> <span>
 					<button type="button" onClick="modal('dialog')" class="id-btn">
 						<span>아이디 찾기</span>
-					</button><!--  <span style="color: #854836">|</span>
-					<button type="button" onClick="modal('dialogA')"
-						class="pwSearch-btn">
+					</button>
+					<span style="color: #854836">|</span>
+					<button type="button" onClick="modal('dialogA')" class="pwSearch-btn">
 						<span>비밀번호 찾기</span>
-					</button> -->
+					</button>
 				</span>
 			</div>
 		</section>
@@ -435,7 +435,7 @@ body {
 				</div>
 			</div>
 		</div>
-		<!-- 
+		<!-- 비밀번호 --> 
 		<div id="dialogA" class="dialogA">
 			<div class="tb">
 				<div class="inner" style="max-width: 500px;">
@@ -472,7 +472,7 @@ body {
 					</div>
 				</div>
 			</div>
-		</div>  -->
+		</div>
 	</main>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script>
@@ -589,7 +589,7 @@ body {
 				memberName.empty();
 				memberPhone.empty();
 		});
-		/*
+	
 		$(".insert-btn").on("click", function(){
 			const memberId = $("#memberId").val();
 			const memberPhone = $("#memberPhone").val();
@@ -734,7 +734,7 @@ body {
 			$(".modal-closeA").on("click", function(){
 				resultDiv.empty();
 				
-			});*/
+			});
 		});
 	</script>
 	<th:block th:include="common/footer"></th:block>
